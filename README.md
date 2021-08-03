@@ -1,1 +1,1 @@
-# Tekkie-Talk
+# Tech-Talk
