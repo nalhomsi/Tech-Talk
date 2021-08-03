@@ -2,7 +2,7 @@
    
 # Description
 
-An MVC (Model-View-Controller) tech blog built using dotenv, Express, Handlebars, MySQL2, and Sequelize. Styled using Bulma.io. User must add .env file to login to MySQL.
+A MVC (Model-View-Controller) tech blog built using dotenv, Express, Handlebars, MySQL2, and Sequelize. Styled using Bulma.io. User must add .env file to login to MySQL.
 
 # Application Deployment
 
