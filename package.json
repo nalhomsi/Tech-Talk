@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kpehl/mvc-tech-blog.git"
+    "url": "git+https://github.com/nalhomsi/Tech-Talk.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kpehl/mvc-tech-blog/issues"
+    "url": "https://github.com/nalhomsi/Tech-Talk/issues"
   },
-  "homepage": "https://github.com/kpehl/mvc-tech-blog#readme",
+  "homepage": "https://github.com/nalhomsi/Tech-Talk#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^7.0.4",
