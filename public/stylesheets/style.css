@@ -12,8 +12,9 @@
   
   a {
     text-decoration: none;
+    color: #225ca3;
     font-weight: bold;
-    color: black;
+    transition: color .1s;
   }
   
   a:hover {
@@ -21,17 +22,24 @@
   }
   
   button {
+    background-color: #225ca3;
     border: 0;
     padding: 1%;
+    color: white;
     font-weight: bold;
     transition: background-color .1s;
     cursor: pointer;
     border-radius: 5px;
   }
   
+  button:hover {
+    background-color: #3486eb;
+  }
+  
   .post-list {
     margin: 0;
     padding: 0;
+    list-style-type:none;
   }
   
   textarea, input {
@@ -73,11 +81,26 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
+    background-color: #333;
+  }
+  
+  header h1 {
+    font-size: 1em;
+    border: 2px outset #7d7d7d;
+    border-radius: 5px;
+    background-color: #ccc;
+    padding: 1.25rem;
   }
   
   main {
     flex: 1;
     padding: 2% 4%;
+  }
+
+  nav {
+      padding: 1.2rem;
+      text-align: right;
+      white-space: pre;
   }
   
   .btn-no-style {
@@ -111,15 +134,30 @@
     line-height: 150%;
   }
   
+  .post .title {
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #7d7d7d;
+  }
+
   .post .title span {
     font-style: italic;
-    font-size: 90%;
+    font-size: 0.8rem;
     color: #7d7d7d;
   }
   
   .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
+  }
+  
+  .upvote-btn {
+    background-color: #197d0f;
+    transition: background-color .1s;
+  }
+  
+  .upvote-btn:hover {
+    background-color: #1f9c13;
   }
   
   .comment-form {
@@ -132,7 +170,7 @@
   }
   
   .comment:nth-child(odd) {
-    background-color: #fff5eb;
+    background-color: #f0f5ff;
   }
   
   .comment .meta {
@@ -141,8 +179,21 @@
     opacity: .6;
   }
   
+  .new-post-form input, textarea {
+    width: 80%;
+  }
+  
   .edit-post-form {
     margin-bottom: 5%;
+  }
+
+  .row {
+      display: flex;
+  }
+
+  .column {
+      flex: 50%;
+      padding: 1.25rem;
   }
   
   footer {
@@ -151,14 +202,4 @@
     justify-content: center;
     padding: 1%;
     font-size: 110%;
-  }
-
-  .card {
-      margin-bottom: 1em;
-      margin-top: 1em;
-  }
-
-  .rows{
-      display:flex;
-      flex-direction: column;
   }
